@@ -40,7 +40,7 @@ $(document).ready(function() {
                     var gifActive = response.data[i].images.fixed_height.url;
                     var gifRating = response.data[i].rating;
     
-                    var gifDiv = $("<div class='topic col-md-4 col-sm-12'>");
+                    var gifDiv = $("<div class='topic col-md-4 col-sm-12 text-center'>");
                     var addGifRating = $("<p>").text("Rating: " + gifRating);
                     gifDiv.append(addGifRating);
                     var image = $("<img class='gif center-block'>").attr("src", gifStill);
