@@ -9,12 +9,11 @@ img {
 	margin-bottom: 20px
 }
 
-
 .btn {
     margin-right: 5px;
+    margin-bottom: 5px;
     min-width: 50px;
 }
-
 
 p {
 	color: gray;
