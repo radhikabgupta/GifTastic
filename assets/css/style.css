@@ -1,0 +1,62 @@
+/*GifTastic CSS*/
+
+body {
+	background-color: black;
+}
+
+img {
+	/*margin-right: 10px;*/
+	margin-bottom: 20px
+}
+
+
+.btn {
+    margin-right: 5px;
+    min-width: 50px;
+}
+
+
+p {
+	color: gray;
+	align-items: center;
+}
+
+.pageTitle {
+	font-family: 'Pacifico', cursive;
+	font-weight: 500;
+}
+
+.topic {
+	display: inline-block;
+}
+
+#giphyLogo {
+	margin-top: 4px;
+	margin-bottom: 0px
+}
+
+#gifsWindow {
+	display: inline-block;
+}
+
+.gif-holder {
+    align-items: flex-start;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-around;
+    max-width: 94vw;
+}
+
+
+/* GIF CSS */
+
+.gif-div {
+    margin: 2% auto;
+    max-width: 92vw;
+    min-width: 250px;
+}
+
+.gif {
+    height: auto;
+    max-width: 100%;
+}

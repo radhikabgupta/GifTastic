@@ -1,0 +1,56 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<title>GifTastic</title>
+
+	<meta charset="utf-8">
+    <link rel="icon" href="assets/images/favicon.png">	
+
+	<meta name="viewport" content="width=device-width, initial-scale=1">
+
+	<link href="https://fonts.googleapis.com/css?family=Pacifico" rel="stylesheet">
+	<script src="assets/javascript/jquery-3.1.1.min.js"></script>
+	<link rel="stylesheet" type="text/css" href="assets/css/bootstrap-theme.min.css">
+	<link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap.min.css">
+	<script src="assets/javascript/bootstrap.min.js"></script>
+	<link rel="stylesheet" type="text/css" href="assets/css/style.css">
+	<script type="text/javascript" src="assets/javascript/giftastic.js"></script>	
+
+</head>
+
+<body>
+	<nav class="navbar navbar-inverse">
+		<div class="container-fluid">
+	    	<div class="navbar-header">
+	     		<button type="button" class="navbar-toggle collapsed" data-toggle="collapse" data-target="#collapse-bar" aria-expanded="false">
+		        	<span class="sr-only">Toggle navigation</span>
+		        	<span class="icon-bar"></span>
+		        	<span class="icon-bar"></span>
+		        	<span class="icon-bar"></span>
+		      	</button>
+	      		<a class="navbar-brand pageTitle" href="#">GifTastic!</a>
+	    	</div>
+	    	<div class="collapse navbar-collapse" id="collapse-bar">
+	      		<form class="navbar-form navbar-right" id="newTopicForm">
+	        		<div class="form-group">
+						  <input type="text" class="form-control" id="topicAddition" placeholder="Enter New topic">
+	        		</div>
+					<button type="submit" id="addTopicBtn" class="btn btn-info">Submit</button>	
+	      		</form>
+	    	</div>
+		</div>
+	</nav>
+	
+	<div class="container-fluid">
+		<div class="row">
+			<div class="col-xs-12 col-sm-12 col-md-12 col-lg-12 btn" role="group" id="buttonsBar">buttonsBar</div>
+		</div>
+		<div class="row"></div>	
+		<div class="col-lg-12 col-md-12 col-xs-12 gif-holder clearfix pull-left">
+			<div class="row" id="gifsWindow"></div>
+		</div>		
+		</div>			
+	</div>
+</body>
+
+</html>
